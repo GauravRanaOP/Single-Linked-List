@@ -25,7 +25,7 @@ public class SingleLinkedList {
 		Node curr=head;
 		while(curr.next!=null)
 		{
-			System.out.println(curr.data);
+			System.out.print(curr.data+ " ");
 			curr=curr.next;
 		}
 		System.out.println(curr.data);
@@ -115,7 +115,7 @@ public class SingleLinkedList {
 			   }
 			   next=next.next;
 			   }
-			   System.out.println(curr.data);
+			   System.out.print(curr.data+" ");
 			   curr=curr.next;
 		   }
 	   }
