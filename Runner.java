@@ -17,7 +17,7 @@ public class Runner {
 	 	
 		System.out.println("Node inserted in between is-");
 		list.insertInBetween(4, 36);                         //Output- 30 5 20 15 36 25 10 
-        list.show();
+                list.show();
 
 		System.out.println("Node deleted-");
 		list.delete(3);                                      //Output- 30 5 20 36 25 10
